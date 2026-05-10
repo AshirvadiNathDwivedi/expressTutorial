@@ -1,0 +1,28 @@
+{
+	"name": "express_practice",
+	"version": "1.0.0",
+	"description": "it is a sample express project to practice express",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --env-file=.env app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AshirvadiNathDwivedi/express_practice.git"
+	},
+	"keywords": [],
+	"author": "Ashirvadi Nath Dwivedi",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/AshirvadiNathDwivedi/express_practice/issues"
+	},
+	"homepage": "https://github.com/AshirvadiNathDwivedi/express_practice#readme",
+	"dependencies": {
+		"dotenv": "^17.4.2",
+		"ejs": "^5.0.2",
+		"express": "^5.2.1",
+		"nodemon": "^3.1.14"
+	}
+}
